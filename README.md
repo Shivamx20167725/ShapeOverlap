@@ -1,19 +1,20 @@
-# ShapeOverlap Project
+##ShapeOverlap Project
 
-Import project using Git uri
+#Import project using Git uri
+#Update maven
+#Run springboot application
 
-Update maven
-Run springboot application
+#Find DB details in application.properties files
 
-Find DB details in application.properties files
+#H2 in-mermory database is used(http://localhost:8080/h2-console)
 
-H2 in-mermory database is used(http://localhost:8080/h2-console)
+##Endpoint
 
-Endpoint
-localhost:8080/getShapes
-localhost:8080/addShape
+#-localhost:8080/getShapes
 
-input json example mentioned below to add shape
+#-localhost:8080/addShape
+
+##input json example mentioned below to add shape
 
 {
         "type": "Square",
@@ -23,9 +24,9 @@ input json example mentioned below to add shape
         "y2": 1
 }
 
-type is type of shape
-(x1,y1)(x2,y2) are geometry coordinates.
+#type is type of shape
+#(x1,y1)(x2,y2) are geometry coordinates.
 
-#output
-202 Accepted for Accepted shape
-404 for not acceptable overlapping square shape
+##output
+#202 Accepted for Accepted shape
+#404 for not acceptable overlapping square shape
